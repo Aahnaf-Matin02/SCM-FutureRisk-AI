@@ -1,0 +1,26 @@
+# SCM FutureRisk AI — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# ─── Core Framework ────────────────────────────────────────────
+streamlit>=1.32.0
+
+# ─── Machine Learning ──────────────────────────────────────────
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# ─── Visualization ─────────────────────────────────────────────
+plotly>=5.20.0
+
+# ─── AI / API ──────────────────────────────────────────────────
+anthropic>=0.25.0
+requests>=2.31.0
+
+# ─── Environment Variables ─────────────────────────────────────
+python-dotenv>=1.0.0
+
+# ─── Optional: Enhanced ML (uncomment if needed) ───────────────
+# xgboost>=2.0.0
+# shap>=0.44.0
+# prophet>=1.1.5
+# statsmodels>=0.14.0
